@@ -22,4 +22,4 @@ MongoDB controller oluştururken database'e veri gönderecek topic seçilir. dol
 
 En aşağından "add a property" kısmından aşağıdaki property eklenmeli.
 
--value.converter.schema.registry.url =  http://schema-registry:8081
+- value.converter.schema.registry.url =  http://schema-registry:8081
