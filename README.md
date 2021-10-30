@@ -9,7 +9,9 @@ python producer'ı çalıştırmak için
 ```
 python dosyaismi.py pub_topic_name
 ```
-topicleri istediğiniz isimlerle oluşturabilirsiniz. 1 vehicle topic, 3 violation topic
+
+Topicleri istediğiniz isimlerle oluşturabilirsiniz. 1 vehicle topic, 3 violation topic.
+
 MongoDB controller oluştururken database'e veri gönderecek topic seçilir. doldurulması gereken kısımlar aşağıda belirtilmiştir.
 
 - key converter class = org.apache.kafka.connect.storage.StringConverter
@@ -18,5 +20,6 @@ MongoDB controller oluştururken database'e veri gönderecek topic seçilir. dol
 - mongoDB database name = Violation
 - mongoDB database name = violation1 or violation2 or violation3
 
--En aşağından "add a property" kısmından aşağıdaki property eklenmeli.
+En aşağından "add a property" kısmından aşağıdaki property eklenmeli.
+
 -value.converter.schema.registry.url =  http://schema-registry:8081
