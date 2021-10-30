@@ -1,7 +1,9 @@
--PUBSUB - AVRO serialization and desarialization
+# PUBSUB - AVRO serialization and desarialization
 
 -python consumer'ı çalıştırmak için
--python avroproducer.py group_id sub_topic_name pub-topic_name
+```
+python avroproducer.py group_id sub_topic_name pub-topic_name
+```
 
 -python producer'ı çalıştırmak için
 -python dosyaismi.py pub_topic_name
